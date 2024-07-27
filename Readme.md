@@ -10,7 +10,7 @@ git commit -m "Initial commit"
 
 git remote add origin git@github.com:CodingOY/CodingOY.github.io.git
 
-git push -u origin master
+git push -u origin main
 
 #检查 Git 状态
 git status
