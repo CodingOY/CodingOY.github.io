@@ -3,14 +3,13 @@ https://kimi.moonshot.cn/chat/cqhqdp2tnn0o6av0kbq0
 ```
 cd Blog
 git init
-
 git add .
 
 git commit -m "Initial commit"
 
 git remote add origin git@github.com:CodingOY/CodingOY.github.io.git
 
-git push -u origin main
+git push -u origin master
 
 #检查 Git 状态
 git status

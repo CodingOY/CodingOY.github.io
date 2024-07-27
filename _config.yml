@@ -102,8 +102,8 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repository: 'https://{ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfZ+LJQHieTC9OrXf/XG3Q04PeeFrOuy0iLkL+SbhFvWtdCSBoTaf4OV891E/1d8iSOi34m2Lmt4cZ3VB8IgBxmjOAwj424ZH2HWj4eantYbbSydom6+t3G7vl6uU86Hrj4Fb+I4O7N48I1ZZNdZfTjguR5drn9gACfF2h4bNZMWKCTFIyqdPNwcDE95EMRk4dA+7+RFgNg8DkKEPrtziZWkF9HuEPPacoE2ChiF2Xr1Q7S5C9ab/SUKmxpzTiQ8RhU4PFSnRxj+ukdDFsz1KGVv/5BJFZrRbam+SyWluXp+DyCiimEC7ou9NOG4SHZClpOZ8chDMA7eyipLXSOfLUa1qv2E3ZUxR1jm2WWpRFXb6XCgEIVQmOAVfjYwsCgnvXjTJNqhyTFKWF+j+wyGtjtSCiibHeGLPsEMJVhVuLS86sUCDWO86bqSgBOStHOBznjLPWU3aWB27fRFB9/Ly+NtwBvlscax9GW7tCRJfCKYgsrVA7DCQ1W2QXW3Dbrrs= 2190569936@qq.com}@github.com/CodingOY/CodingOY.github.io.git'
-  branch: main
+  repository: 'github.com/CodingOY/CodingOY.github.io.git'
+  branch: master
 
 #envelope_comment
 #seehttps://akilar.top/posts/e2d3c450/
