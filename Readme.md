@@ -4,17 +4,20 @@ https://kimi.moonshot.cn/chat/cqhqdp2tnn0o6av0kbq0
 cd Blog
 git init
 
-git remote -v
-
-git status #查看本地分支的状态
+git commit -m "Initial commit"
 
 git remote add origin git@github.com:CodingOY/CodingOY.github.io.git
 
-git add .
-
-git commit -m "Initial commit"
-
 git push -u origin master
+
+#检查 Git 状态
+git status
+
+#检查提交历史：
+git log
+
+#检查远程仓库的状态：
+git remote -v
 
 hexo g
 hexo d
