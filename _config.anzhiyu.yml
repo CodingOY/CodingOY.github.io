@@ -10,7 +10,7 @@ menu:
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
-    音乐馆: /music/ || anzhiyu-icon-music
+    音乐馆: /music/?id=2481333960&server=netease || anzhiyu-icon-music
     追番页: /bangumis/ || anzhiyu-icon-bilibili
     # 相册集: /album/ || anzhiyu-icon-images
     小空调: /air-conditioner/ || anzhiyu-icon-fan
@@ -140,7 +140,8 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://s2.loli.net/2024/07/27/nwf6SlsXVMWqkzc.jpg
+  # https://cdn.jsdelivr.net/gh/CodingOY/MyPic@1.0/touxiang.jpg
   effect: false
 
 # Disable all banner image
@@ -243,13 +244,14 @@ post_copyright:
   copyright_author_link: /
 
 # Sponsor/reward
-reward:
+reward: 
   enable: true
+  # 打赏二维码
   QR_code:
-    - img: https://cdn.jsdelivr.net/gh/CodingOY/MyPic@1.0/qrcode-weichat.png
+    - img: https://s2.loli.net/2024/07/27/bgp9vrhOVmTKXeL.png
       link:
       text: 微信
-    - img: https://cdn.jsdelivr.net/gh/CodingOY/MyPic@1.0/qrcode-alipay.png
+    - img: https://s2.loli.net/2024/07/27/nxaD8P3QNoMiIwl.png
       text: 支付宝
 
 # Post edit
@@ -331,8 +333,8 @@ comments:
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
-  count: false # Display comment count in post's top_img
-  card_post_count: false # Display comment count in Home Page
+  count: true # Display comment count in post's top_img
+  card_post_count: true # Display comment count in Home Page
 
 # valine
 # https://valine.js.org
@@ -469,23 +471,23 @@ footer:
     work_description: 努力搬砖中~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
     offduty_description: 下班啦~
-  # 徽标部分配置项 https://shields.io/
+  # 徽章标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
-    enable: false
+    enable: true
     list:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
-      - link: https://blog.anheyu.com/
+      - link: 
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       # - link: https://www.dogecloud.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
       #   message: 本站使用多吉云为静态资源提供CDN加速
-      # - link: https://github.com/
-      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
-      #   message: 本站项目由Github托管
+      - link: https://github.com/
+        shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
+        message: 本站项目由Github托管
       # - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
       #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
@@ -494,7 +496,8 @@ footer:
     # centerImg：可以在这里放置一个中心图片。
     # left 和 right：分别定义左侧和右侧的社交链接，包括标题、链接和图标。
     enable: true
-    centerImg:
+    centerImg: https://s2.loli.net/2024/07/27/AzBvL9MS1ylg4NE.gif
+    # https://img02.anheyu.com/adminuploads/1/2023/05/09/645a3ff0dc540.gif
     left:
       - title: email
         link: mailto:2190569936@qq.com
@@ -522,7 +525,7 @@ footer:
       #   link: /copyright
       #   icon: anzhiyu-icon-copyright-line
   list:
-    enable: false
+    enable: true
     randomFriends: 3
     project:
       - title: 服务
@@ -564,8 +567,8 @@ footer:
       enable: false
       link: /copyright
     linkList:
-      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        text: 主题
+      # - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+      #   text: 主题
       - link: https://github.com/CodingOY/MyPic
         text: 图床
       # - link: https://beian.miit.gov.cn/
@@ -685,7 +688,7 @@ h2Divider: false
 table_interlaced_discoloration: false
 
 # 首页双栏显示
-article_double_row: true
+article_double_row: flase
 
 # The top_img settings of home page
 # default: top img - full screen, site info - middle (默认top_img全屏，site_info在中间)
@@ -827,7 +830,8 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg # 自定加载动画义头像
+  avatar: https://s2.loli.net/2024/07/27/AzBvL9MS1ylg4NE.gif
+  # https://cdn.jsdelivr.net/gh/CodingOY/MyPic@1.0/touxiang.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -890,7 +894,7 @@ aside:
 busuanzi:
   site_uv: false # 显示独立访客数
   site_pv: false # 显示页面浏览量
-  page_pv: false # 显示单页浏览量
+  page_pv: true # 显示单页浏览量
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -1112,10 +1116,10 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 新品主题
-    title: Theme-AnZhiYu
+    tips: 欢迎来到我的博客
+    title: Hellow World!
     image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
-    link: https://docs.anheyu.com/
+    link: https://codingoy.github.io/
 
 # 朋友圈配置
 friends_vue:
@@ -1165,7 +1169,7 @@ comment_barrage_config:
 # https://github.com/metowolf/MetingJS
 nav_music:
   enable: true
-  console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
+  console_widescreen_music: true # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
   id: 2481333960
   server: netease
   volume: 0.7 # 默认音量
