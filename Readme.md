@@ -21,6 +21,7 @@ git log
 #检查远程仓库的状态：
 git remote -v
 
+hexo cl
 hexo g
 hexo d
 ```
