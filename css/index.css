@@ -14932,6 +14932,21 @@ blockquote {
 .share-link .share-main .share-main-all .reward-dec {
   font-size: 12px;
 }
+.post-tools .post-tools-left > div {
+  margin: 0;
+}
+.post-tools .post-tools-left {
+  width: auto;
+}
+#post .tag_share {
+  margin-bottom: 2rem;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
 .relatedPosts {
   margin-top: 1.25rem;
 }
@@ -15043,7 +15058,7 @@ blockquote {
 .post-reward .reward-main {
   position: absolute;
   bottom: 40px;
-  left: 0;
+  left: -70%;
   z-index: 90;
   display: none;
   padding: 0px 0px 15px;

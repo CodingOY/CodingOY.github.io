@@ -1,4 +1,4 @@
-var posts=["2024/07/27/hello-world/","2024/07/27/算法笔记/"];function toRandomPost(){
+var posts=["2024/07/24/算法笔记/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
