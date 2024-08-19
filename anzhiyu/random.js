@@ -1,4 +1,4 @@
-var posts=["2024/07/30/借教室/","2024/07/29/岛屿个数题解/","2024/07/24/算法笔记（一）/","2024/08/18/算法笔记（二）/"];function toRandomPost(){
+var posts=["2024/07/24/算法笔记（一）/","2024/08/18/算法笔记（二）/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };var friend_link_list=[];
     var refreshNum = 1;
